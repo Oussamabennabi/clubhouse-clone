@@ -1,0 +1,47 @@
+.dataTitle {
+	color: grey;
+}
+.cardsContainer {
+	overflow-y: scroll;
+	max-height: 80vh;
+}
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: .4em;
+  color: var(--textColor);
+  margin-bottom: 1.3em;
+}
+.cardHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 1.4em;
+}
+
+.card span {
+  color: #aaaaaa;
+}
+.card svg {
+  font-size: 2em;
+  cursor: pointer;
+}
+.card p {
+  text-align: left;
+  font-weight: normal;
+  padding-top: .35em;
+}
+.card img {
+  border-radius: 1em;
+  width: 45px;
+  cursor: pointer;
+  height: 45px;
+  object-fit: cover;
+  margin-right: .7em;
+}

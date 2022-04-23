@@ -1,0 +1,11 @@
+{
+  "id":1,
+  "imageUrl":"/images/user1.png",
+	"lastName": "Bennabi",
+  "bio":"@oussamabennai",
+	"firstName": "Oussama",
+	"followers": "2",
+	"following": "80",
+  "dateOfJoin":"14-july-2020",
+  "nominateName":"Anton Alarcon"
+}

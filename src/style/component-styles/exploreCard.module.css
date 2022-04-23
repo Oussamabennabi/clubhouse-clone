@@ -1,0 +1,29 @@
+.exploreCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: white;
+  padding: .4em;
+  margin: .7em;
+  border-radius: 1em;
+  box-shadow: 0 3px 4px #cccccc;
+}
+.exploreCardContainer div:first-child{
+  font-weight: bold;
+  padding-bottom: .2em;
+  display: flex;
+  font-size: 1em;
+  justify-content: center;
+  color: var(--textColor);
+  align-items: center;
+  gap: .3em;
+
+}
+
+.exploreCardContainer div:nth-child(2){
+  color: #aaaaaa;
+  padding-bottom: .2em;
+  line-height: 1.2;
+  font-size: .8em;
+}

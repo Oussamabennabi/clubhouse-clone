@@ -1,0 +1,110 @@
+[
+	{
+		"id":1,
+		"time": "8:00 PM",
+		"title": "Sacred Cypher Sundays",
+		"images": [
+			"/images/user1.png",
+			"/images/user2.jpg",
+			"/images/user3.jpg",
+			"/images/user4.jpg"
+		],
+		"description": "w/Mummu Fresh,Rami Nashashisbi,sadia Naweb & binta Dialo room room for morning reflection recitationmChating,Prayer freestyle cypher"
+	},
+	{
+		"id":2,
+		"time": "8:00 PM",
+		"title": "Sacred Cypher Sundays",
+		"images": [
+			"/images/user1.png",
+			"/images/user2.jpg",
+			"/images/user3.jpg",
+			"/images/user4.jpg"
+		],
+		"description": "w/Mummu Fresh,Rami Nashashisbi,sadia Naweb & binta Dialo room room for morning reflection recitationmChating,Prayer freestyle cypher"
+	},
+	{
+		"id":3,
+		"time": "5:00 AM",
+		"title": "Sacred Cypher Sundays",
+		"images": [
+			"/images/user1.png",
+			"/images/user2.jpg",
+			"/images/user4.jpg",
+			"/images/user3.jpg"
+		],
+		"description": "w/Mummu Fresh,Rami Nashashisbi,sadia Naweb & binta Dialo room room for morning reflection recitationmChating,Prayer freestyle cypher"
+	},
+	{
+		"id":4,
+		"time": "8:00 PM",
+		"title": "Sacred Cypher Sundays",
+		"images": [
+			"/images/user2.jpg",
+			"/images/user1.png",
+			"/images/user3.jpg",
+			"/images/user4.jpg"
+		],
+		"description": "w/Mummu Fresh,Rami Nashashisbi,sadia Naweb & binta Dialo room room for morning reflection recitationmChating,Prayer freestyle cypher"
+	},
+	{
+		"id":5,
+		"time": "8:00 PM",
+		"title": "Sacred Cypher Sundays",
+		"images": [
+			"/images/user3.jpg",
+			"/images/user2.jpg",
+			"/images/user1.png",
+			"/images/user4.jpg"
+		],
+		"description": "w/Mummu Fresh,Rami Nashashisbi,sadia Naweb & binta Dialo room room for morning reflection recitationmChating,Prayer freestyle cypher"
+	},
+	{
+		"id":6,
+		"time": "8:00 PM",
+		"title": "Sacred Cypher Sundays",
+		"images": [
+			"/images/user2.jpg",
+			"/images/user3.jpg",
+			"/images/user1.png",
+			"/images/user4.jpg"
+		],
+		"description": "w/Mummu Fresh,Rami Nashashisbi,sadia Naweb & binta Dialo room room for morning reflection recitationmChating,Prayer freestyle cypher"
+	},
+	{
+		"id":7,
+		"time": "8:00 PM",
+		"title": "Sacred Cypher Sundays",
+		"images": [
+			"/images/user4.jpg",
+			"/images/user1.png",
+			"/images/user2.jpg",
+			"/images/user3.jpg"
+		],
+		"description": "w/Mummu Fresh,Rami Nashashisbi,sadia Naweb & binta Dialo room room for morning reflection recitationmChating,Prayer freestyle cypher"
+	},
+	{
+		"id":8,
+		"time": "8:00 PM",
+		"title": "Sacred Cypher Sundays",
+		"images": [
+			"/images/user1.png",
+			"/images/user2.jpg",
+			"/images/user3.jpg",
+			"/images/user4.jpg"
+		],
+		"description": "w/Mummu Fresh,Rami Nashashisbi,sadia Naweb & binta Dialo room room for morning reflection recitationmChating,Prayer freestyle cypher"
+	},
+	{
+		"id":9,
+		"time": "8:00 PM",
+		"title": "Sacred Cypher Sundays",
+		"images": [
+			"/images/user1.png",
+			"/images/user3.jpg",
+			"/images/user2.jpg",
+			"/images/user4.jpg"
+		],
+		"description": "w/Mummu Fresh,Rami Nashashisbi,sadia Naweb & binta Dialo room room for morning reflection recitationmChating,Prayer freestyle cypher"
+	}
+]

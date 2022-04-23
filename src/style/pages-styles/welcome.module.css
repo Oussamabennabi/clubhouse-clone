@@ -1,0 +1,42 @@
+.welcomeContainer {
+	display: flex;
+	justify-content: space-between;
+
+	align-items: flex-start;
+	flex-direction: column;
+	min-height: calc(100vh - .8em);
+	padding: 3em 1em;
+	background-color: #f2f0e4;
+	color: var(--textColor);
+}
+.welcomeContainer h1 {
+	font-size: 1.7em;
+	margin-bottom: 0;
+}
+
+.welcomInfo p {
+	font-size: 1em;
+	margin-bottom: 2em;
+	padding-right: 1em;
+	font-weight: 400;
+}
+
+.welcomInfo::-webkit-scrollbar{ 
+  width: 7px;
+}
+.welcomInfo::-webkit-scrollbar-thumb {
+  background-color: rgb(245, 211, 149); 
+}
+
+.actionsBtns {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+}
+.actionsBtns a:last-child {
+  color: var(--btnBgColor);
+  font-size: .875em;
+}

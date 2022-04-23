@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+:root {
+  --textColor:rgb(65,64,66);
+  --btnBgColor:#4387b7;
+  --transition:all 200ms ease-in-out;
+  --PhoneInputCountryFlag-aspectRatio: 1.333;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1em;
+  font-family: 'Neutrif Pro';
+}
+.titl {
+  color: #4387b7;
+}
+input {
+  font-family: inherit;
+}
+a.primaryButton {
+  text-decoration: none;
+  border-radius: 2rem;
+  padding: .5em 1.5em;
+  font-size: 1.4em;
+  background-color: var(--btnBgColor);
   color: white;
+  font-weight: bold;
+  transition: var(--transition);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.primaryButton:hover {
+  color: white;
+  opacity: .8;
 }

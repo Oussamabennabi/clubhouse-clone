@@ -1,0 +1,26 @@
+.dailyCard {
+  border-radius:1rem;
+  background-color: #e7e4d5;
+  padding: 1.5em;
+}
+.singleCard {
+  display: flex;
+  margin-bottom: .4em;
+}
+.singleCard p {
+  color: var(--textColor);
+  flex: .5; 
+  margin: 0;
+}
+.singleCard h5 {
+  font-size: 1em;
+  flex: 1.5;
+  text-overflow: ellipsis;
+  overflow: hidden !important;
+  white-space: nowrap;
+}
+
+.singleCard h5 span {
+  color: var(--textColor);
+  font-weight: normal;
+}

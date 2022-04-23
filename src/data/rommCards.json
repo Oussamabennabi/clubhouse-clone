@@ -1,0 +1,50 @@
+[
+  {
+    "id":1,
+    "header":"GOOD TIME",
+    "subHeader":"Calvin Harries x Email Nava on Good Time Showe",
+    "names":["Seriam Krishan", "Oussama Bennabi", "Steven Sinofsky", "Paul Davison"],
+    "images":["/images/user1.png", "/images/user1.png"],
+    "comments":"6",
+    "inRoom":"1.8K"
+  }, {
+    "id":2,
+		"header": "GOOD TIME",
+		"subHeader": "Calvin Harries x Email Nava on Good Time Showe",
+		"names": [
+			"Seriam Krishan",
+			"Oussama Bennabi",
+			"Steven Sinofsky",
+			"Paul Davison"
+		],
+		"images": ["/images/user1.png", "/images/user1.png"],
+		"comments": "6",
+		"inRoom": "1.8K"
+	}, {
+    "id":3,
+		"header": "GOOD TIME",
+		"subHeader": "Calvin Harries x Email Nava on Good Time Showe",
+		"names": [
+			"Seriam Krishan",
+			"Oussama Bennabi",
+			"Steven Sinofsky",
+			"Paul Davison"
+		],
+		"images": ["/images/user1.png", "/images/user1.png"],
+		"comments": "6",
+		"inRoom": "1.8K"
+	}, {
+    "id":4,
+		"header": "GOOD TIME",
+		"subHeader": "Calvin Harries x Email Nava on Good Time Showe",
+		"names": [
+			"Seriam Krishan",
+			"Oussama Bennabi",
+			"Steven Sinofsky",
+			"Paul Davison"
+		],
+		"images": ["/images/user1.png", "/images/user1.png"],
+		"comments": "6",
+		"inRoom": "1.8K"
+	}
+]

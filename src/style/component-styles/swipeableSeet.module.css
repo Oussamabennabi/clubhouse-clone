@@ -1,0 +1,252 @@
+.bottomSheetContainer {
+	border-radius: 1.5em 1.5em 0 0;
+	padding: 1.5em;
+	width: 100%;
+	position: relative;
+	
+}
+.newRoom {
+	padding: 0em;
+	background-color: #f2f0e4;
+}
+p {
+	text-align: center;
+	font-size: 1em;
+	font-weight: 500;
+	color: var(--textColor);
+}
+.switchLine {
+	position: absolute;
+	top: 0.25em;
+	width: 2em;
+	height: 0.26em;
+	border-radius: 1em;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: grey;
+	opacity: 0.55;
+	cursor: grab;
+}
+button {
+	border: none;
+	background-color: transparent;
+}
+.addTopicBtn button {
+	color: #28ae61;
+	transition: all 200ms ease-in-out;
+}
+.letsGoBtn button {
+	color: white;
+	background-color: #28ae61;
+	font-size: 1.3em;
+	font-weight: 500;
+	border-radius: 2rem;
+	color: white;
+	padding: 0.3em 1em;
+	transition: all 200ms ease-in-out;
+}
+.letsGoBtn button:focus {
+	background-color: #5fb886;
+}
+
+.letsGoBtn {
+	text-align: center;
+	margin-top: 1.25em;
+}
+.addTopicBtn button:focus {
+	opacity: 0.76;
+}
+.addTopicBtn {
+	text-align: right;
+}
+.selectRoom {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 1em;
+}
+.selectRoom button {
+	padding: 0.5em 1.3em 0.2em 1.3em;
+	border-radius: 1em;
+	color: var(--textColor);
+	line-height: 1.2;
+	transition: all 200ms ease-in-out;
+}
+.selectRoom button.active {
+	outline: 1px solid lightseagreen;
+	transition: all 200ms ease-in-out;
+	background-color: lightblue;
+}
+.selectRoom button div {
+	background-color: lightseagreen;
+	border-radius: 1.5em;
+}
+.selectRoom button div svg {
+	font-size: 4em;
+}
+
+/* Room Sheet */
+
+.roomSheetHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 6vh;
+	padding: 0 1em;
+}
+.roomSheetHeader .cursorPointer {
+	cursor: pointer;
+}
+.roomSheetHeader svg {
+	font-size: 1.9em;
+}
+.roomSheetHeader img {
+	border-radius: 0.7em;
+
+	width: 35px;
+	margin-left: 1em;
+}
+
+.roomSheetHeader {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	background-color: #f2f0e4;
+
+}
+.roomSheetBody {
+	height: calc(100vh - ((6vh + 1em) + 6vh));
+	overflow: auto;
+	display: grid;
+	background-color: white;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(7, 1fr);
+	gap: 1.5em;
+	padding: 1em;
+	border-top-left-radius: 5em;
+	border-top-right-radius: 5em;
+}
+.roomSheetBody::-webkit-scrollbar {
+  display: none;
+}
+.roomSheetBody {
+  scrollbar-width: none !important; /* Firefox */
+}
+.mice  {
+	position: absolute;
+	top: 40%;
+	right: 0;
+	left: 60%;
+	background-color: white;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 0;
+}
+.member {
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+}
+.member.talking img {
+	outline: 3px solid #cccccc;
+	outline-offset: 3px;
+}
+.member img {
+	width: 70px;
+	border-radius: 1.25em;
+	margin-bottom: 0.3em;
+}
+.member p {
+	white-space:nowrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.member p img {
+	width: 15px;
+	outline: none !important;
+	margin-right: .2em;
+	transform: translateY(3px);
+}
+.roomSheetFooter {
+	padding: 0 1em;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	align-items: center;
+	margin-bottom: 1em;
+}
+.roomSheetFooter img {
+	width: 40px;
+
+}
+.leaveBtn {
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #28ae61;
+	border-radius: 2em;
+	padding: .3em 1em;
+	background-color:#f0ebcf ;
+}
+.leaveBtn svg {
+	color: orange;
+	margin-right: .2em;
+}
+.roomSheetFooter svg {
+	font-size: 1.4em;
+}
+
+.icon{
+	border-radius: 50%;
+	background-color: #f0ebcf;
+	display: flex;
+	padding: .6em;
+}
+
+
+/* Notification Sheet */
+.notificationSheet {
+	background-color: #f2f0e4;
+}
+.notificationSheet .notificationLinks {
+	color: var(--btnBgColor);
+	text-align: center;
+	width: 100%;
+}
+.notificationSheet .notificationLinks button {
+	color: var(--btnBgColor);
+	text-align: center;
+	margin: .5em;
+}
+.notificationSheet .notificationLinks svg {
+	margin-left: .6em;
+	margin-right: .2em;
+}
+
+/* Upcomming Sheet */
+.upcommingSheet {
+
+}
+.upcommingSheet button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 1em .4em;
+	margin: .35em 0;
+	transition: all 200ms ease-in-out;
+}
+.upcommingSheet button svg {
+	color: #28ae61;
+	font-size: 1.1em;
+}
+.upcommingSheet button:focus {
+	background-color: rgba(0, 0, 0, .1);
+}

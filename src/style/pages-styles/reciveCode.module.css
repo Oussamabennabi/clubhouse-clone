@@ -1,0 +1,19 @@
+.ReciveCodeContainer {
+	display: flex;
+	justify-content: space-around;
+text-align: center;
+  align-items: center;
+  position: relative;
+	flex-direction: column;	
+	min-height: calc(100vh - .8em);
+	background-color: #f2f0e4;
+	color: var(--textColor);
+}
+
+.ReciveCodeContainer h1 {
+	font-size: 1.7em;
+	margin-bottom: 1.4em;
+}
+.ReciveCodeContainer form {
+  margin-bottom: 1em;
+}

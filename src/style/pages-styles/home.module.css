@@ -1,0 +1,56 @@
+.home {
+  position: relative;
+}
+.actionBtns{
+  position:fixed;
+  bottom: 0;
+  padding-bottom:1em ;
+  background-image:linear-gradient(transparent 20%,#f2f0e4 80%) ;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.actionBtns button {
+  border: none;
+  outline: none;
+  cursor: pointer; 
+  
+}
+.actionBtns button:first-child {
+  background-color: #28ae61;
+  font-size: 1.3em;
+  font-weight: 500;
+  border-radius: 2rem;
+  color: white;
+  margin-left: 1em;
+  padding: .3em 1em;
+  transform: scale(.85) translateX(13%);
+
+  transition: all 200ms ease-in-out;
+}
+.actionBtns button:first-child:focus {
+  background-color: #5fb886;
+}
+.actionBtns button:last-child {
+  background-color: transparent;
+  transform: translateX(70%) 
+  scale(1.2)
+  skew(15deg ,-18deg);
+  margin-left: 1em;
+  font-size: 2em;
+  position: relative;
+
+}
+.actionBtns button span.redDot {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 13px;
+  right: -1px;
+  width: 8px;
+  height: 8px;
+}

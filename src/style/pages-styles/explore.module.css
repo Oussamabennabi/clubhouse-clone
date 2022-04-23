@@ -1,0 +1,116 @@
+.exploreContainer form {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	position: relative;
+}
+.exploreContainer form,
+.exploreContainer form input {
+	width: 100%;
+}
+
+.exploreContainer form input {
+	border: none;
+	padding: 0.3em;
+	padding-left: 2em;
+}
+
+.exploreContainer form input::placeholder {
+	color: #cccccc;
+	font-family: inherit;
+	font-size: 1.2em;
+}
+.exploreContainer form .searchIcon {
+	position: absolute;
+	font-size: 1.2em;
+	top: 0;
+	left: 0.25em;
+}
+.title {
+  color: #aaaaaa;
+}
+.peopleContainer {
+	display: flex;
+	justify-content: center;
+  max-height: 474.5px;
+	align-items: center;
+  margin-bottom: 3em;
+	flex-direction: column;
+	gap: 1em;
+  border-radius: 1em;
+  padding-bottom: 1.5em;
+	background-color: white;
+  position: relative;
+}
+.peopleContainer .showMoreBtn {
+  position: absolute;
+  inset: 0;
+  left: 50%;
+  width: 50%;
+  display: flex;
+  gap: .2em;
+  line-height: 1;
+  justify-content: center;align-items: center;
+  background-color:#f4f4f4;
+  border: none;
+  color: #aaaaaa;
+  box-shadow: 0  1px 4px  #cccccc;
+  transform: translateX(-50%);
+  height: 2em;
+  font-weight: 500;
+  top: calc(100% - 1em);
+  border-radius: 2em;
+  
+}
+.personContainer:first-child {
+  padding-top: .5em;
+}
+.personContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: .3em;
+  padding-bottom: .3em;
+  padding-inline: .7em;
+	width: 100%;
+  cursor: pointer;
+}
+.personContainer button {
+  align-self: center;
+}
+.personInfo {
+  flex: 1;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.personContainer img {
+  width: 60px;
+  border-radius: 1.3em;
+
+}
+.personInfo p,.personInfo h5 {
+  padding: 0;
+  text-align: left;
+  color: var(--textColor);
+  margin: 0;
+}
+.personInfo p {
+  padding-top: 3px;
+  color: #aaaaaa;
+  display: -webkit-box;
+  font-size: .9em;
+  width: 173px;
+  height: fit-content;
+  line-height: 1.15;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+}
+
+.personInfo h5 {
+  font-size: 1.1em;
+}
+.conversationContainer {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}

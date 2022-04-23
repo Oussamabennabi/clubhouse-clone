@@ -1,0 +1,92 @@
+[
+	{
+		"id": 1,
+		"userName": "oussama",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": true
+	},
+
+	{
+		"id": 2,
+		"userName": "mike",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": false
+	},
+
+	{
+		"id": 3,
+		"userName": "NourHane",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": false
+	},
+
+	{
+		"id": 4,
+		"userName": "Bruh",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": false
+	},
+
+	{
+		"id": 5,
+		"userName": "Walid",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": false
+	},
+
+	{
+		"id": 6,
+		"userName": "Mbarek",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": false
+	},
+
+	{
+		"id": 7,
+		"userName": "Mohammed",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": false
+	},
+
+	{
+		"id": 8,
+		"userName": "oussama",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": false
+	},
+
+	{
+		"id": 9,
+		"userName": "oussama",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": false
+	},
+
+	{
+		"id": 10,
+		"userName": "oussama",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": false
+	},
+
+	{
+		"id": 11,
+		"userName": "oussama",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": false
+	},
+
+	{
+		"id": 12,
+		"userName": "oussama",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": false
+	},
+
+	{
+		"id": 13,
+		"userName": "oussama",
+		"profilePhoto": "/images/user1.png",
+		"isTalking": false
+	}
+]
