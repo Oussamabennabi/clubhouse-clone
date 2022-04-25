@@ -50,6 +50,7 @@ nav {
 		margin-left: auto;
 		padding: 14px 18px;
 		cursor: pointer;
+	font-size:1.2rem;
 	border-radius: 1em;
 	line-height: 1;
 		transition: all 200ms ease-in-out;
