@@ -1,3 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<div align="center">
+    <img src="./projects screenshots/welcome-page.png" width="400px"</img> 
+    <img src="./projects screenshots/home.png" width="400px"</img> 
+    <img src="./projects screenshots/upcomming.png" width="400px"</img> 
+</div>
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
