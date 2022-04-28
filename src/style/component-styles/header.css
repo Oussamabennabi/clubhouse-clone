@@ -50,7 +50,7 @@ nav {
 		margin-left: auto;
 		padding: 14px 18px;
 		cursor: pointer;
-	font-size:1.2rem;
+	font-size:1rem;
 	border-radius: 1em;
 	line-height: 1;
 		transition: all 200ms ease-in-out;
@@ -67,9 +67,9 @@ nav {
 }
 
 .upcomming-header h3 svg {
-	font-size: 1.4em;
+	font-size: 1em;
 	margin-left: .2em;
 }
 .upcomming-header svg {
-	font-size:1.8em ;
+	font-size:1.2em ;
 }
